@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd9f0d432099ae1ef2516adea5ce14d880a90d14091f331bf24d8f1de6e0ac60
-size 185
+//
+// Copyright (C) 2024 The Android Open Source Project
+// Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {
+}

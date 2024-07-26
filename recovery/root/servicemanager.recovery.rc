@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d1b15de253f585e67db350ed7d3f6fff5ac64d7f158008db0877357dfee47af3
-size 173
+service servicemanager /system/bin/servicemanager
+    disabled
+    group system readproc
+    onrestart setprop servicemanager.ready false
+    seclabel u:r:servicemanager:s0

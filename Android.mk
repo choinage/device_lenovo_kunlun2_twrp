@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2c697045548801f1faeb3c2fc037542d1b42bf89b9232047f242fd84603c168d
-size 278
+#
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE),kunlun2)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif

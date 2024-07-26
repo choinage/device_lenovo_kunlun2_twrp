@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:be1fd0e49bd02acaaeb012d5fbad5af177b8875b3834f08c6c7198004487a864
-size 265
+#
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+add_lunch_combo omni_kunlun2-user
+add_lunch_combo omni_kunlun2-userdebug
+add_lunch_combo omni_kunlun2-eng
